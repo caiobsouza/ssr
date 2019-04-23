@@ -10,7 +10,7 @@ const Index = () => {
       <div className="jumbotron">
         <h1>Next.js + Express</h1>
         <p>A simple app using Spotify API</p>
-        <PodcastItem title={'aaaaaa'} />
+        <PodcastItem title={'O SSH de Jonathas funciona'} />
         <p>
           <Link href="/search">
             <a className="btn btn-primary btn-lg" role="button">
