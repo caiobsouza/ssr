@@ -1,3 +1,6 @@
+@import "_branding.scss";
+
 .jumbotron {
-  color: rebeccapurple;
+  font-family: $headings;
+  color: $secondary;
 }

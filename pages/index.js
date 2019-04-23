@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import PodcastItem from '../components/podcast-item';
+import Button from '../components/button';
 
 import '../scss/index.scss';
 
@@ -13,11 +14,10 @@ const Index = () => {
         <PodcastItem title={'aaaaaa'} />
         <p>
           <Link href="/search">
-            <a className="btn btn-primary btn-lg" role="button">
-              Use it !
-            </a>
+            asdfasdfasdf
           </Link>
         </p>
+        <Button href="#" label="Use It!" type="primary" />
       </div>
     </div>
   );
