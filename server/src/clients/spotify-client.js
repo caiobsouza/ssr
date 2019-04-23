@@ -1,5 +1,5 @@
 const axios = require('axios').default;
-const authorizationInterceptor = require('./interceptors/authorization-interceptor')
+const authorizationInterceptor = require('./interceptors/authorization-interceptor');
 
 const config = {
   baseURL: 'https://api.spotify.com/v1',
