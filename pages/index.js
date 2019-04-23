@@ -9,12 +9,12 @@ const Index = () => {
   return (
     <div className="container">
       <div className="jumbotron">
-        <h1>Next.js + Express</h1>
+        <h1>Mosaico Igreja</h1>
         <p>A simple app using Spotify API</p>
         <PodcastItem title={'O SSH de Jonathas funciona'} />
         <p>
           <Link href="/search">
-            asdfasdfasdf
+            <a>asdfasdfasdf</a>
           </Link>
         </p>
         <Button href="#" label="Use It!" type="primary" />
