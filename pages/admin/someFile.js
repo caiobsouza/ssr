@@ -3,8 +3,6 @@ import Link from 'next/link';
 import PodcastItem from '../../components/podcast-item';
 import Button from '../../components/button';
 
-
-
 const Pods = () => {
   return (
     <div className="container">
