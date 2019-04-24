@@ -13,6 +13,10 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:mosaico-developers/mosaico-website.git"
+  },
   "husky": {
     "hooks": {
       "pre-push": "npm test && npm run lint"
