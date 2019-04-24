@@ -9,7 +9,8 @@
     "test": "jest ./**/__tests__/**/*.test.js",
     "lint": "eslint .",
     "dev": "nodemon server-entry",
-    "build": "next build"
+    "build": "next build",
+    "lighthouse": "lighthouse http://localhost:3030 --view --output html --output-path ./lighthouse/report.html"
   },
   "author": "",
   "license": "ISC",
