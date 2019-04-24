@@ -15,11 +15,12 @@
     "enzyme": "3.4.3",
     "enzyme-adapter-react-16": "1.2.0",
     "eslint": "^5.16.0",
-    "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-promise": "3.4.0",
+    "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-standard": "2.0.1",
     "jest": "24.1.0",
+    "lighthouse": "^4.3.0",
     "react-addons-test-utils": "15.6.2",
     "react-test-renderer": "16.4.2"
   },
@@ -28,6 +29,7 @@
     "dev": "next",
     "build": "next build",
     "start": "node server.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "lighthouse": "lighthouse http://localhost:3030 --view --output html --output-path ./lighthouse/report.html"
   }
 }
