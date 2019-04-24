@@ -5,16 +5,12 @@ const dotenv = require('dotenv');
 dotenv.config();
 const PORT = process.env.PORT || 3030;
 
-const api = require('./server/api');
-
 const app = next({ dev: true });
 const handle = app.getRequestHandler();
 
 app.prepare()
   .then(() => {
     const server = express();
-
-    api(server);
 
     server.get('*', (req, res) => {
       return handle(req, res);
