@@ -1,10 +1,16 @@
 const express = require('express');
+const winston = require('winston');
 const next = require('next');
 
 const PORT = process.env.PORT || 3030;
 
 const app = next({ dev: true });
 const handle = app.getRequestHandler();
+winston.add(
+  new winston.transports.Console({
+    format: winston.format.combine(winston.format.simple()),
+  })
+);
 
 app
   .prepare()
@@ -17,11 +23,11 @@ app
 
     server.listen(PORT, err => {
       if (err) throw err;
-      console.log(`> Ready on http://localhost:${PORT}`);
+      winston.info(`Ready on http://localhost:${PORT}`);
     });
   })
   .catch(ex => {
-    console.error(ex.stack);
+    winston.log(ex.stack);
     process.exit(1);
   });
 

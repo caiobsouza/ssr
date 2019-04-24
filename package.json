@@ -5,13 +5,20 @@
     "express": "^4.16.4",
     "next": "8.1.0",
     "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "react-dom": "16.8.6",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "@babel/core": "7.3.4",
+    "babel-eslint": "^10.0.1",
     "babel-jest": "24.1.0",
     "enzyme": "3.4.3",
     "enzyme-adapter-react-16": "1.2.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-promise": "3.4.0",
+    "eslint-plugin-standard": "2.0.1",
     "jest": "24.1.0",
     "react-addons-test-utils": "15.6.2",
     "react-test-renderer": "16.4.2"
@@ -20,6 +27,7 @@
     "test": "jest",
     "dev": "next",
     "build": "next build",
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "eslint ."
   }
 }
