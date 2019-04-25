@@ -21,10 +21,16 @@
     "eslint-plugin-promise": "3.4.0",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-standard": "2.0.1",
+    "husky": "^2.1.0",
     "jest": "24.1.0",
     "lighthouse": "^4.3.0",
     "react-addons-test-utils": "15.6.2",
     "react-test-renderer": "16.4.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test && npm run lint"
+    }
   },
   "scripts": {
     "test": "jest",
