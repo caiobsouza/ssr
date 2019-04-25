@@ -7,7 +7,24 @@ exports[`With Snapshot Testing App shows "Hello world!" 1`] = `
   <p
     className="jsx-2982525546"
   >
-    Hello World!
+    Hello World, 
+    user
   </p>
+  <header
+    className="jsx-2982525546"
+  >
+    <div
+      className="jsx-2982525546 menu"
+    >
+      <div
+        className="jsx-2982525546 logo"
+      />
+      <nav
+        className="jsx-2982525546"
+      >
+        Menu
+      </nav>
+    </div>
+  </header>
 </div>
-`
+`;

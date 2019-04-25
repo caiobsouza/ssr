@@ -8,14 +8,14 @@ import App from '../pages/index.js';
 
 describe('With Enzyme', () => {
   it('App shows "Hello world!"', () => {
-    const app = shallow(<App />);
-    expect(app.find('p').text()).toEqual('Hello World!');
+    const app = shallow(<App name="ok" />);
+    expect(app.find('p').text()).toEqual('Hello World, ok');
   });
 });
 
 describe('With Snapshot Testing', () => {
   it('App shows "Hello world!"', () => {
-    const component = renderer.create(<App />);
+    const component = renderer.create(<App name="user"/>);
     const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
   });

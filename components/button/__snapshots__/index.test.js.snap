@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Snapshot Testing should be rendered 1`] = `
+<a
+  className="btn primary"
+  role="button"
+>
+  Label
+</a>
+`;

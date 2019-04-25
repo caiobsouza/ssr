@@ -2,8 +2,10 @@
   "name": "mosaico-spa",
   "version": "1.0.0",
   "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
     "express": "^4.16.4",
     "next": "8.1.0",
+    "node-sass": "^4.11.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "winston": "^3.2.1"

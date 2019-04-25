@@ -1,0 +1,27 @@
+//typography
+$headings: Arial, sans-serif;
+$paragraph: Times, serif;
+
+//colors
+$primary:  rgba(0, 198, 130, 1);
+$secondary: red;
+
+//spacing
+$space-xxs: 12px;
+
+//font-size
+$ratio: 1.333;
+$caption: 12px;
+$body1: 14px;
+$body2: 16px;
+$h6: 20px;
+$h5: $h6*$ratio;
+$h4: $h5*$ratio;
+$h3: $h4*$ratio;
+$h2: $h3*$ratio;
+$h1: $h2*$ratio;
+
+//line-height
+$lineSimple: 1;
+$lineBase: 1.5;
+$lineDouble: 2;
