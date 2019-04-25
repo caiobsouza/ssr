@@ -1,24 +1,22 @@
 import React from 'react';
 
-const Index = ({name}) => (
+const Index = () => (
   <div>
     <style jsx>{`
       p {
         color: red;
       }
     `}</style>
-    <p>Hello World, {name}</p>
     <header>
-    <div className="menu">
-    <div className="logo">
-    
-    </div>
-    <nav>
-      Menu
-    </nav>
-    </div>  
+      <div className="menu">
+        <div className="logo">
+
+        </div>
+        <nav>
+          Menu
+        </nav>
+      </div>
     </header>
-    
   </div>
 );
 
