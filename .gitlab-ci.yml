@@ -9,5 +9,5 @@ cache:
 test:
   script:
    - npm ci
-   - npm test
+   - npm test -- --collect-coverage
    - npm run lint
