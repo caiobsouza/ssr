@@ -12,4 +12,4 @@ notifications:
 jobs:
   include:
   - stage: Run Tests
-    script: nyc npm test
+    script: npm test
