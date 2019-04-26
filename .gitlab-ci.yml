@@ -1,0 +1,24 @@
+image: node:latest
+
+stages:
+  - install
+  - test
+
+cache:
+  paths:
+  - node_modules/
+
+install_dependencies:
+  stage: install
+  script:
+   - npm ci
+
+testing:
+  stage: test
+  script:
+   - npm test -- --collect-coverage
+
+lint:
+  stage: test
+  script:
+   - npm run lint
